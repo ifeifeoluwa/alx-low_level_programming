@@ -2,7 +2,9 @@
 #include "main.h"
 
 /**
- * main - resets the value of a pointer to 98
+ * resetto_98 - resets the value of a pointer to 98
+ *
+ * @n: pointer derefence for changing value of variable
  *
  * Result: Always 0
  */
