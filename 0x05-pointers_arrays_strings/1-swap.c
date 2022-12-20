@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * swap_int - swaps the value of two integers
  * @a: pointer dereference for changing the value of the variable a
