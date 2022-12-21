@@ -23,7 +23,7 @@ int _atoi(char *s)
 		{
 			if (sz > 0)
 				m *= 10;
-			size++
+			sz++;
 		}
 		ct++;
 	}
