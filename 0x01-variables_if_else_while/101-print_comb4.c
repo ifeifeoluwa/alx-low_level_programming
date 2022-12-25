@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdiio.h>
 
 /**
  * main - Entry point
@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int a, b, c, d = 0;
+	int a, b, c;
 
 	for (a = 48; a < 58; a++)
 	{
