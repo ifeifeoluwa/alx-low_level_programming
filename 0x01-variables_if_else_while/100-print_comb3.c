@@ -12,14 +12,14 @@ int main(void)
 
 	for (a = 48; a <= 57; a++)
 	{
-		c++;
 		for (b = 49; b <= 57; b++)
 		{
 			if (a != b && b > a)
 			{
+				c++;
 				putchar(a);
 				putchar(b);
-				if (c != 44)
+				if (c != 45)
 				{
 					putchar(',');
 					putchar(' ');
