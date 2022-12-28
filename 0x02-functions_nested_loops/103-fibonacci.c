@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	int a, b = 1, c = 2, d, e = 0;
+	int a;
+	long unassigned int b = 1, c = 2, d, e = 0;
 
 	for (a = 1; a <= 33; ++a)
 	{
