@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _abs - computes the absolute valie of an integer
+ * _abs - computes the absolute value of an integer
  *
  * @n: the viven number
  *
@@ -12,10 +12,8 @@
 int _abs(int n)
 {
 	if (n > 0)
-		return (n);
+		n = n;
 	else
-	{
 		n *= -1;
-		return (n);
-	}
+	return (n);
 }
