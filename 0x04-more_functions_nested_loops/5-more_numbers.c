@@ -16,9 +16,13 @@ void more_numbers(void)
 		{
 			if (i <= 57)
 				_putchar(i);
+			else
+			{
+				_putchar(i / 58);
+				_putchar(i % 58)
+			}
 		}
 		_putchar('\n');
 		j++;
 	}
-	_putchar('\n');
 }
