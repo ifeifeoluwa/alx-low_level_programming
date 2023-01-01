@@ -15,11 +15,8 @@ void more_numbers(void)
 		for (i = 48; i <= 62; i++)
 		{
 			if (i <= 57)
-				_putchar(i);
-			else
-			{
 				_putchar(i / 58);
-				_putchar(i % 58);
+			_putchar(i % 58);
 			}
 		}
 		_putchar('\n');
