@@ -12,13 +12,13 @@ void more_numbers(void)
 
 	while (j < 10)
 	{
-		for (i = 48; i < 63; i++)
+		for (i = 0; i < 15; i++)
 		{
-			if (i >= 58)
+			if (i >= 10)
 			{
-				_putchar(i / 58);
+				_putchar((i / 10) + 48);
 			}
-			_putchar(i % 58);
+			_putchar((i % 10) + 48);
 		}
 		_putchar('\n');
 		j++;
