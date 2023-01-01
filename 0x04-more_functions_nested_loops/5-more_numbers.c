@@ -19,7 +19,7 @@ void more_numbers(void)
 			else
 			{
 				_putchar(i / 58);
-				_putchar(i % 58)
+				_putchar(i % 58);
 			}
 		}
 		_putchar('\n');
