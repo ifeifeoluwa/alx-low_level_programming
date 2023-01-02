@@ -14,7 +14,7 @@ char *leet(char *s)
 
 	while (s[sc] != '\0')
 	{
-		while (lc < 100)
+		while (lc < 10)
 		{
 			if (ll[lc] == s[lc])
 				s[lc] = ln[lc];
