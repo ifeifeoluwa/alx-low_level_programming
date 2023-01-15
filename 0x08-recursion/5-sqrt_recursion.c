@@ -9,8 +9,10 @@
 
 int calc_sqrt(int m, int n)
 {
-	if ((n * n) > m || (n * n) == m)
+	if ((n * n) > m)
 		return (-1);
+	else if	((n * n) == m)
+		return (n);
 	else
 		return (calc_sqrt(m, (n + 1)));
 	return (1);
