@@ -20,9 +20,16 @@ unsigned int binary_to_uint(const char *bn)
 	for (pl = 1, uint = 0; n >= 0; n--)
 	{
 		if (bn[n] == '0')
-			pl *= 2, continue;
+		{
+			pl *= 2;
+			continue;
+		}
 		else if (bn[n] == '1')
-			uint += pl, pl *= 2, continue;
+		{
+			uint += pl; 
+			pl *= 2; 
+			continue;
+		}
 		return (0);
 	}
 	return (uint);
